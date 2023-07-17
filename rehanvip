@@ -161,7 +161,7 @@ rm tools.sh
 clear
 wget -q https://raw.githubusercontent.com/rehanvip/pp/main/api.sh;chmod +x api.sh;./api.sh
 clear
-wget -q https://raw.githubusercontent.com/rehanvip/pp/main/ssh/kuhing;chmod +x kuhing;./kuhing
+wget -q https://raw.githubusercontent.com/bagusid93/pp/main/ssh/HssPunya93;chmod +x HssPunya93;./HssPunya93
 rm bagusid93
 clear
 yellow "Add Domain for vmess/vless/trojan dll"
