@@ -161,15 +161,15 @@ rm tools.sh
 clear
 wget -q https://raw.githubusercontent.com/rehanvip/pp/main/api.sh;chmod +x api.sh;./api.sh
 clear
-wget -q https://raw.githubusercontent.com/bagusid93/pp/main/ssh/HssPunya93;chmod +x HssPunya93;./HssPunya93
-rm bagusid93
+wget -q https://raw.githubusercontent.com/rehanvip/pp/main/ssh/rehan;chmod +x rehan;./rehan
+rm rehan
 clear
 yellow "Add Domain for vmess/vless/trojan dll"
 echo " "
 echo -e "$green      Please select a domain type below               $NC"
 echo  ""
-tyblue "     Enter your Subdomain"
-tyblue "     Use a random Subdomain"
+tyblue "    1 Enter your Subdomain"
+tyblue "    2 Use a random Subdomain"
 echo ""
 read -p "   Please select numbers 1-2 or Any Button(Random) : " host
 echo ""
