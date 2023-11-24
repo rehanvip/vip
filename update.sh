@@ -35,9 +35,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/nishikazekazata/vip/main/limit/menu.zip
-    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/nishikazekazata/hah/main/epro/epro" ; chmod +x /usr/bin/enc
-    7z e -paskykenza123 menu.zip
+    wget https://raw.githubusercontent.com/myvpn1/vip/main/limit/menu.zip
     unzip menu.zip
     chmod +x menu/*
     enc menu/*
