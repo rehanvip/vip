@@ -35,10 +35,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To Dragon Tunneling ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To KLMPK Tunneling ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}Dragon Emperor® ${NC}${YELLOW}(${NC} ${green} Dragon Tunneling ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self Dragon Tunneling${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green}Andyyuda® ${NC}${YELLOW}(${NC} ${green} KLMPK Tunneling ${NC}${YELLOW})${NC}"
+echo -e " © Recode By My Self KLMPK Tunneling${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
