@@ -4,6 +4,10 @@
 <pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/myvpn1/vip/main/debian.sh && chmod +x debian.sh && ./debian.sh
 </code></pre>
 
+### INSTALL SCRIPT 
+<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/myvpn1/1/main/debian.sh && chmod +x debian.sh && ./debian.sh
+</code></pre>
+
 ### PERINTAH UPDATE 
 <pre><code>wget https://raw.githubusercontent.com/myvpn1/vip/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
