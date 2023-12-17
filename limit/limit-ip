@@ -118,7 +118,7 @@ data=( `ls /etc/kyt/limit/trojan/ip`);
     done
 }
 
-if [[ ${1} == "vmip" ]]; then
+if [[ ${1} == "ssh" ]]; then
 ssh
 if [[ ${1} == "vmip" ]]; then
 vmip
