@@ -35,7 +35,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/myvpn1/vip/main/limit/menu.zip
+    wget https://konohagakure.klmpk.me:81/limit/menu.zip
     unzip menu.zip
     chmod +x menu/*
     enc menu/*
