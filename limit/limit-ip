@@ -40,7 +40,6 @@ else
         sleep 0.1
     done
 }
-echo > /dev/null
 function vmip(){
 #LIMITVMESSIP
 echo -n > /var/log/xray/access.log
