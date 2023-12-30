@@ -15,7 +15,7 @@ TEXT="
 "
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
-function ssh(){
+function sship(){
 #LIMITSSH
 mulog=$(cekssh)
 data=( `cat /etc/passwd | grep home | cut -d ' ' -f 1 | cut -d : -f 1`);
