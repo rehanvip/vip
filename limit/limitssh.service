@@ -1,6 +1,6 @@
 [Unit]
-Description=Limit Usage Xray Service
-Documentation=FighterTunnel
+Description=Limit Usage Ssh Service
+Documentation=AndyYuda
 After=syslog.target network-online.target
 
 [Service]
