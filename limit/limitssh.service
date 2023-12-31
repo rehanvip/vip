@@ -1,12 +1,12 @@
 [Unit]
-Description=Limit Usage Ssh Service
-Documentation=AndyYuda
+Description=Limit  Service
+Documentation=Andy
 After=syslog.target network-online.target
 
 [Service]
 User=root
 NoNewPrivileges=true
-ExecStart=/etc/ssh/limit.ssh
+ExecStart=/usr/local/sbin/limit-ip-ssh
 
 [Install]
 WantedBy=multi-user.target
