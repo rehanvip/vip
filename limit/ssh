@@ -25,7 +25,6 @@ do
 iplimit=$(cat /etc/kyt/limit/ssh/ip/$user)
 cekcek=$(echo -e "$mulog" | grep $user | wc -l);
 if [[ $cekcek -gt $iplimit ]]; then
-getent passwd ${user}  >/dev/null 2>&1
 userdel -f ${user}  >/dev/null 2>&1
 systemctl restart sshd >/dev/null 2>&1
 systemctl restart ws >/dev/null 2>&1
