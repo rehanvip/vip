@@ -93,8 +93,6 @@ data=( `ls /etc/kyt/limit/trojan/ip`);
     done
 }
 
-if [[ ${1} == "sship" ]]; then
-sship
 if [[ ${1} == "vmip" ]]; then
 vmip
 elif [[ ${1} == "vlip" ]]; then
