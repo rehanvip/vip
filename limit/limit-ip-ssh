@@ -25,9 +25,7 @@ do
 iplimit=$(cat /etc/kyt/limit/ssh/ip/$user)
 cekcek=$(echo -e "$mulog" | grep $user | wc -l);
 if [[ $cekcek -gt $iplimit ]]; then
-userdel -f ${user}  >/dev/null 2>&1
-systemctl restart sshd >/dev/null 2>&1
-systemctl restart ws >/dev/null 2>&1
+userdel -f $user
 nais=3
 echo -e "$waktu\nRemoved User: $user Login: $cekcek IP Max: $ip IP \n" >> /etc/kyt/log/ssh/ssh.log
 else
