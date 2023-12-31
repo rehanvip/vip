@@ -18,9 +18,8 @@ curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TE
 function sship(){
 #LIMITSSH
 mulog=$(cekssh)
-data=( `ls /etc/kyt/limit/ssh/ip`);
-#Decrypted By YADDY D PHREAKER
-    for user in "${data[@]}"
+data=( `cat /etc/passwd | grep home | cut -d ' ' -f 1 | cut -d : -f 1`);
+for user in "${data[@]}"
 do
 iplimit=$(cat /etc/kyt/limit/ssh/ip/$user)
 cekcek=$(echo -e "$mulog" | grep $user | wc -l);
