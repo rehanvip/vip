@@ -17,7 +17,7 @@ curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TE
 }
 function sship(){
 #LIMITSSH
-mulog=$(cekssh)
+mulog=$(member)
 data=( `ls /etc/kyt/limit/ssh/ip`);
 #Decrypted By YADDY D PHREAKER
     for user in "${data[@]}"
@@ -25,7 +25,6 @@ do
 iplimit=$(cat /etc/kyt/limit/ssh/ip/$user)
 cekcek=$(echo -e "$mulog" | grep $user | wc -l);
 if [[ $cekcek -gt $iplimit ]]; then
-getent passwd ${user}  >/dev/null 2>&1
 userdel -f ${user}  >/dev/null 2>&1
 systemctl restart sshd >/dev/null 2>&1
 systemctl restart ws >/dev/null 2>&1
