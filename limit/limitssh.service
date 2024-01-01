@@ -6,7 +6,7 @@ After=syslog.target network-online.target
 [Service]
 User=root
 NoNewPrivileges=true
-ExecStart=/etc/ssh/limit.vmess
+ExecStart=/etc/ssh/limit.ssh
 
 [Install]
 WantedBy=multi-user.target
