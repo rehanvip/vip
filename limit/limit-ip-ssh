@@ -40,4 +40,3 @@ else
  echo ""
         fi
         sleep 0.1
-    done
