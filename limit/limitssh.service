@@ -1,12 +1,12 @@
 [Unit]
-Description=Limit  Service
-Documentation=Andy
+Description=Limit Usage Xray Service
+Documentation=FighterTunnel
 After=syslog.target network-online.target
 
 [Service]
 User=root
 NoNewPrivileges=true
-ExecStart=/usr/local/sbin/limit-ip-ssh
+ExecStart=/etc/ssh/limit.vmess
 
 [Install]
 WantedBy=multi-user.target
