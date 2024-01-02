@@ -1,12 +1,13 @@
 [Unit]
-Description=Limit Usage Xray Service
-Documentation=FighterTunnel
-After=syslog.target network-online.target
+Description=My
+After=network.target
 
 [Service]
-User=root
-NoNewPrivileges=true
-ExecStart=/etc/ssh/limit.ssh
+ExecStart=/usr/bin/limip-ssh-ip sship
+Restart=always
+RestartSec=3
+StartLimitIntervalSec=60
+StartLimitBurst=5
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
