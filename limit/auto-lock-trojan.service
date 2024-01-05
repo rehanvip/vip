@@ -1,0 +1,11 @@
+[Unit]
+Description=Auto Lock Trojan Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash -c '/path/to/your/script.sh trip'
+
+[Install]
+WantedBy=multi-user.target
