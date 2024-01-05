@@ -1,11 +1,11 @@
 [Unit]
-Description=Auto Lock Trojan Service
-After=network.target
+Description=Auto Lock Shadowsocks Service
+After=syslog.target network-online.target
 
 [Service]
-Type=simple
 User=root
-ExecStart=/bin/bash -c '/path/to/your/script.sh trip'
+NoNewPrivileges=true
+ExecStart=/bin/bash -c '/path/to/your/script.sh shadowsocks'
 
 [Install]
 WantedBy=multi-user.target
