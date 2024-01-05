@@ -23,6 +23,10 @@ systemctl enable --now limitvmess
 systemctl enable --now limitvless
 systemctl enable --now limittrojan
 systemctl enable --now limitshadowsocks
+systemctl enable --now auto-lock-vmess.service
+systemctl enable --now auto-lock-trojan.service
+systemctl enable --now auto-lock-vless.service
+systemctl enable --now auto-lock-Shadowsocks.service
 # systemctl start limitssh
 # systemctl start limitvmess
 # systemctl start limitvless
