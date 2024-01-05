@@ -4,10 +4,6 @@ wget -q -O /etc/systemd/system/limitvmess.service "${REPO}limit/limitvmess.servi
 wget -q -O /etc/systemd/system/limitvless.service "${REPO}limit/limitvless.service" && chmod +x limitvless.service >/dev/null 2>&1
 wget -q -O /etc/systemd/system/limittrojan.service "${REPO}limit/limittrojan.service" && chmod +x limittrojan.service >/dev/null 2>&1
 wget -q -O /etc/systemd/system/limitshadowsocks.service "${REPO}limit/limitshadowsocks.service" && chmod +x limitshadowsocks.service >/dev/null 2>&1
-wget -q -O /etc/systemd/system/auto-lock-vmess.service "${REPO}limit/auto-lock-vmess.service" && chmod +x auto-lock-vmess.service >/dev/null 2>&1
-wget -q -O /etc/systemd/system/auto-lock-trojan.service "${REPO}limit/auto-lock-trojan.service" && chmod +x auto-lock-trojan.service >/dev/null 2>&1
-wget -q -O /etc/systemd/system/auto-lock-vless.service "${REPO}limit/auto-lock-vless.service" && chmod +x auto-lock-vless.service >/dev/null 2>&1
-wget -q -O /etc/systemd/system/auto-lock-Shadowsocks.service "${REPO}limit/auto-lock-Shadowsocks.service" && chmod +x auto-lock-Shadowsocks.service >/dev/null 2>&1
 wget -q -O /etc/xray/limit.vmess "${REPO}limit/vmess" >/dev/null 2>&1
 wget -q -O /etc/xray/limit.vless "${REPO}limit/vless" >/dev/null 2>&1
 wget -q -O /etc/xray/limit.trojan "${REPO}limit/trojan" >/dev/null 2>&1
@@ -23,10 +19,6 @@ systemctl enable --now limitvmess
 systemctl enable --now limitvless
 systemctl enable --now limittrojan
 systemctl enable --now limitshadowsocks
-systemctl enable --now auto-lock-vmess.service
-systemctl enable --now auto-lock-trojan.service
-systemctl enable --now auto-lock-vless.service
-systemctl enable --now auto-lock-Shadowsocks.service
 # systemctl start limitssh
 # systemctl start limitvmess
 # systemctl start limitvless
