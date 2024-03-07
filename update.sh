@@ -35,7 +35,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://konohagakure.klmpk.me:81/limit/menu.zip
+    wget --no-check-certificate https://konohagakure.klmpk.me:81/limit/menu.zip
     unzip menu.zip
     chmod +x menu/*
     enc menu/*
