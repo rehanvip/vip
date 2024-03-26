@@ -23,11 +23,6 @@ function pasang_domain() {
         rm -f /root/cf.sh
         clear
     elif [[ $host == "3" ]]; then
-        echo -e "   \e[1;32mPlease Enter Your Custom Domain Name $NC"
-        read -p "   Custom Domain Name: " custom_domain
-        echo "IP=" >> /var/lib/kyt/ipvps.conf
-        echo $custom_domain > /etc/xray/domain
-        echo $custom_domain > /root/domain
         #install cf 2
         wget ${REPO}limit/cf2.sh && chmod +x cf2.sh && ./cf2.sh
         rm -f /root/cf2.sh
