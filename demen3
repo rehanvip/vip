@@ -6,7 +6,7 @@ function pasang_domain() {
     echo -e "   '----------------------------------'"
     echo -e "     \e[1;32m1)\e[0m Domain Sendiri"
     echo -e "     \e[1;32m2)\e[0m Gunakan Domain Random "
-    echo -e "     \e[1;32m3)\e[0m Domain dengan Nama Depan Kustom"
+    echo -e "     \e[1;32m3)\e[0m Domain Random dengan Nama Depan Kustom"
     echo -e "   ------------------------------------"
     read -p "   Please select numbers 1-3 or Any Button(Random) : " host
     echo ""
