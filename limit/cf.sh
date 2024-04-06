@@ -17,7 +17,7 @@ sub=${random_domen}
 dns=${sub}.vpnstore.me
 
 CF_ID=andyyuda41@gmail.com
-CF_KEY=0d626234700bad388d6d07b49c42901445d1c
+CF_KEY=44ca6e372a82e9ca0d4b1f269302ebabea0f2
 
 set -euo pipefail
 
