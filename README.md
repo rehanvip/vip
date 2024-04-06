@@ -7,6 +7,9 @@
 ### PERINTAH UPDATE 
 <pre><code>wget https://raw.githubusercontent.com/myvpn1/vip/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
+### REPO INDONESIA BUAT VPS INDO 
+<pre><code>wget https://raw.githubusercontent.com/myvpn1/vip/main/repoindo.sh && chmod +x repoindo.sh && ./repoindo.sh</code></pre>
+
 ### TESTED ON OS 
 - UBUNTU 20.04.05
 - DEBIAN 10
